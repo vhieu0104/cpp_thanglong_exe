@@ -8,6 +8,5 @@ int main()
        float a = i * 1.5;
        cout << a << endl;
    }
-
-    return 0;
+   return 10;
 }
