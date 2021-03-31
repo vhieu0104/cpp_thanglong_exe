@@ -14,8 +14,9 @@ int main()
     int a,b;
     cout << "Nhap 2 so: " << endl;
     cin >> a >> b;
-    cout << gcd(a,b);
-        
+    cout << "Uoc cua 2 so: " << gcd(a,b);
+   
+    
     return 0;
 }
 
