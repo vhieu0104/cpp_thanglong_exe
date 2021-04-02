@@ -15,32 +15,40 @@ int main()
     int n;
     cin >> n;
     int a[n];
-    for(int i = 0;i < n;i++)
+    if(n==0)
+    {
+        cout << "So lon nhat: 0"<<endl;
+        cout << "So be nhat: 0";
+        
+    }
+    else
+    {for(int i = 0;i < n;i++)
     {
         cout << "Nhap day so: ";
         cin >> a[i];
       
     }
-    int max = -999999999;
-    int min =  999999999;
+    
+    
     int j,k;
-    for(j=0;j<n;j++)
+    int max = a[0];
+    int min = a[0];
+    for(j=1;j<n;j++)
     {
         if(a[j]>max)
         {
             max = a[j];
         }
     }
-    for(k=0;k<n;k++)
+    for(k=1;k<n;k++)
     {
         if(a[k]<min)
         {
             min = a[k];
         }
     }
-
+  
     cout << "So lon nhat: " << max <<endl;
     cout << "So be nhat: " << min;
-   
+    }
     return 0;
-}
