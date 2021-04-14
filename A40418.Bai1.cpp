@@ -1,3 +1,24 @@
+// 1. Lợi nhuận cổ phiếu
+
+// Lợi nhuận từ việc bán cổ phiếu được tính theo công thức sau:
+
+// Profit = ((NS * SP) – SC) – ((NS * PP) + PC), trong đó:
+
+// - NS là số lượng cổ phần
+
+// - SP là giá của mỗi cổ phần
+
+// - SC là hoa hồng bán hàng
+
+// - PP là giá mua vào của mỗi cổ phần
+
+// - PC là hoa hồng phải tra khi mua cổ phần
+
+// Nếu giá trị profit là dương thì cổ phiếu mang lại lợi nhuận và ngược lại là lỗ.
+
+// Viết một hàm nhận các tham số là NS, SP, SC, PP, PC và trả về tổng số lợi nhuận hoặc lỗ của số cổ phiếu đó.
+
+// Sau đó hãy viết chương trình nhập vào số cổ phiếu mà một người đang nắm giữ, rồi với mỗi cổ phiếu hãy nhập vào các tham số NS, SP, SC, PP, PC và in ra màn hình lời / lỗ của mỗi cổ phiếu. Cuối cùng in ra tổng số lời / lỗ của tất cả các cổ phiếu.
 #include <iostream>
 using namespace std;
 

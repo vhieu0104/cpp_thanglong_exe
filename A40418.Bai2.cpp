@@ -1,3 +1,12 @@
+// 2. Khu vực lái xe an toàn trong thành phố
+
+// Một thành phố nọ được chia thành 5 khu vực có tên lần lượt là Đông, Nam, Tây, Bắc và Trung tâm. Viết một chương trình nhập vào số vụ tai nạn giao thông của từng khu vực trong thành phố và in ra màn hình khu vực có ít vụ tai nạn nhất.
+
+// Chương trình cần có 2 hàm sau:
+
+// - int getNumAccidents(): đầu vào là tên của khu vực, hàm sẽ yêu cầu người dùng nhập vào số vụ tai nạn của khu vực đó, nếu giá trị nhập vào < 0 thì yêu cầu nhập lại cho đến khi lớn hơn 0. Trong hàm main, mỗi khu vực trong thành phố phải gọi hàm này một lần.
+
+// - void findLowest(): đầu vào là số vụ tai nạn của 5 khu vực lần lượt theo thứ tự đã nói ở đầu bài. In ra màn hình tên của khu vực và số vụ tai nạn của khu vực có ít vụ tai nạn nhất.
 #include <iostream>
 using namespace std;
 

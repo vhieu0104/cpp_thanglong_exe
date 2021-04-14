@@ -1,3 +1,5 @@
+// 4. Giá trị mảng lớn nhất / nhỏ nhất
+
 // Viết chương trình cho phép người dùng nhập mười giá trị vào một mảng. Sau đó, chương trình sẽ hiển thị các giá trị lớn nhất và nhỏ nhất được lưu trữ trong mảng.
 #include <iostream>
 using namespace std;
@@ -26,6 +28,6 @@ int main()
             min=arr[j];
         }
     }
-    cout <<"Gia tri lon nhat: "<< max<<endl;
-    cout <<"Gia tri nho nhat: "<< min;
+    cout << max<<endl;
+    cout << min;
 }

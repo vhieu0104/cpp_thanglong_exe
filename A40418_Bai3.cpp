@@ -7,11 +7,6 @@
 // - Một hàm được gọi trong hàm main, hàm này có một tham số (số nhân viên trong công ty). Hàm này sẽ thực hiện nhập số ngày nghỉ của mỗi nhân viên, sau đó sẽ trả về tổng số ngày nghỉ của các nhân viên.
 
 // - Một hàm được gọi trong hàm main, hàm này có hai tham số lần lượt là số nhân viên và tổng số giờ nghỉ của các nhân viên. Hàm này trả về trung bình số ngày nghỉ của các nhân viên trong công ty. Kiểu trả về là double.
-
-
-
-
-
 #include <iostream>
 using namespace std;
 

@@ -9,13 +9,6 @@
 // - Có một hàm tên là getArea(): hàm này có 2 tham số là chiều rộng và dài của hình chữ nhật và khi gọi hàm này sẽ trả về diện tích của hình chữ nhật đó. Diện tích hình chữ nhật được tính theo công thức là chiều dài nhân chiều rộng.
 
 // - Có một hàm tên là displayData(): hàm này có 3 tham số là chiều rộng, chiều dài và diện tích của hình chữ nhật. Nhiệm vụ của hàm này là in ra màn hình thông báo chiều rộng, chiều dài và diện tích của hình chữ nhật đó.
-
-
-
-
-
-
-
 #include <iostream>
 using namespace std;
 
